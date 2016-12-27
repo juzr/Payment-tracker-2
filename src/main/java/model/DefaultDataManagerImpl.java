@@ -28,7 +28,7 @@ import model.fileloader.PaymentFileLoader;
 @Component
 public class DefaultDataManagerImpl implements DataManager {
 
-	private List<Money> paymentList;
+    private List<Money> paymentList;
     private ConcurrentHashMap<String, Integer> netAmounts;
     private HashMap<String, Double> exchangeRates;
 
